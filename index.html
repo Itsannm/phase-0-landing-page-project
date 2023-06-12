@@ -1,22 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Phase-0-project</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-       <link rel="stylesheet" type="text/css" href=/style.css>
+<html>
+<head>
+  <title>Say Cheese Pizzeria</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Say Cheese Pizzeria</h1>
+    <nav>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-text">
+      <h2>Welcome to Say Cheese Pizzeria</h2>
+      <p>Indulge in the finest pizzas made with love and fresh ingredients</p>
+      <a href="#menu" class="btn">View Menu</a>
+    </div>
+  </section>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-item">
+      <img src="https://cookieandkate.com/images/2021/07/margherita-pizza-recipe-1-2-768x1155.jpg" alt="Margherita Pizza">
+      <h3>Margherita Pizza</h3>
+      <p>Fresh basil, mozzarella cheese, and tangy tomato sauce on a thin crust.</p>
+    </div>
+    <div class="menu-item">
+      <img src="https://sipbitego.com/wp-content/uploads/2021/08/Pepperoni-Pizza-Recipe-Sip-Bite-Go.jpg" alt="Pepperoni Pizza">""
+      <h3>Pepperoni Pizza</h3>
+      <p>Classic pizza topped with zesty pepperoni and gooey mozzarella cheese.</p>
+    </div>
     
-    </head>
-    <body>    
-        <header>
-            <nav>
-                <ul>
+  </section>
 
-                </ul>
-            </nav>
-        </header>
-        <footer>
+  <section id="location">
+    <h2>Our Location</h2>
+    <p>123 Main Street, Cityville</p>
+    <p>Open: Mon-Sat 11AM-10PM, Sun 12PM-9PM</p>
+    <img src="map.jpg" alt="Location Map">
+  </section>
 
-        </footer>
-        </body>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Say Cheese Pizzeria. All rights reserved.</p>
+  </footer>
+</body>
 </html>
